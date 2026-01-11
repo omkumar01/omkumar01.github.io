@@ -196,8 +196,6 @@ For comprehensive design rationale, see [DESIGN_DOCUMENT.md](DESIGN_DOCUMENT.md)
 - [ ] Analytics and visitor tracking
 - [ ] Real-time communication with visitors
 
-See [DESIGN_DOCUMENT.md](DESIGN_DOCUMENT.md) for detailed extension roadmap.
-
 ## 📝 Browser Support
 
 | Browser | Version | Status |
@@ -244,7 +242,6 @@ Use backend service like SendGrid, AWS SES, or Mailgun.
 
 ## 📚 Documentation
 
-- **[DESIGN_DOCUMENT.md](DESIGN_DOCUMENT.md)** - Complete design philosophy, architecture, and extension guide
 - **[README.md](README.md)** - This file (quick start and customization)
 - **Inline comments** in HTML, CSS, and JavaScript for code understanding
 
