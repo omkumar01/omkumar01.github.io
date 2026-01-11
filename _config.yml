@@ -1,0 +1,36 @@
+# GitHub Pages Jekyll Configuration
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
+
+# Site settings
+title: Om Kumar Sahu - Developer Kernel
+description: A futuristic developer kernel interface showcasing backend systems, microservices, and cloud infrastructure expertise.
+author: Om Kumar Sahu
+url: https://omkumar01.github.io
+repository: omkumar01/omkumar01.github.io
+
+# Build settings
+markdown: kramdown
+theme: null  # Using custom CSS, not Jekyll theme
+plugins: []
+
+# Exclude unnecessary files from build
+exclude:
+  - .git
+  - .gitignore
+  - README.md
+  - DESIGN_DOCUMENT.md
+  - resume.txt
+  - LICENSE
+  - _config.yml
+
+# Security and performance
+safe: true
+lsi: false
+incremental: false
+future: false
+
+# Markdown processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
