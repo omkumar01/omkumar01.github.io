@@ -497,6 +497,18 @@ input:focus, textarea:focus {
     box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
 }
 
+.cta-button.tertiary {
+    background-color: transparent;
+    color: var(--color-accent-primary);
+    border: 1px solid var(--color-accent-primary);
+}
+
+.cta-button.tertiary:hover {
+    background-color: var(--color-accent-primary);
+    color: var(--color-bg);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+}
+
 /* EXECUTABLES / PROJECTS */
 .executables-grid {
     display: grid;
